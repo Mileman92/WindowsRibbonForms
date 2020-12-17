@@ -92,24 +92,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\APPDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>APPDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAL\PruefExecDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PruefExecDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAL\PruefPlanDataSet.cs">
-      <DependentUpon>PruefPlanDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAL\PruefPlanDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PruefPlanDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="GUI\RibbonForm5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,39 +150,6 @@
     <EmbeddedResource Include="GUI\RibbonForm4.resx">
       <DependentUpon>RibbonForm4.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DAL\APPDataSet.xsc">
-      <DependentUpon>APPDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DAL\APPDataSet.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>APPDataSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DAL\APPDataSet.xss">
-      <DependentUpon>APPDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DAL\PruefExecDataSet.xsc">
-      <DependentUpon>PruefExecDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DAL\PruefExecDataSet.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PruefExecDataSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DAL\PruefExecDataSet.xss">
-      <DependentUpon>PruefExecDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DAL\PruefPlanDataSet.xsc">
-      <DependentUpon>PruefPlanDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DAL\PruefPlanDataSet.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PruefPlanDataSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DAL\PruefPlanDataSet.xss">
-      <DependentUpon>PruefPlanDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
