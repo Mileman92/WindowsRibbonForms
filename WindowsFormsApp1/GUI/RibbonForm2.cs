@@ -14,113 +14,7 @@ namespace WindowsFormsApp1
 
             Cursor.Current = Cursors.WaitCursor;
             //Tree
-            qCommonStructTreeBindingSource.SuspendBinding();
-            qCommonStructTreeTableAdapter.FillByIdgp(
-             pruefPlanDataSet.qCommonStructTree, "3");
-            qCommonStructTreeBindingSource.ResumeBinding();
-
-            // kopiram podatke iz jedne u drugu - ova bi trebala bit editabilna
-            //pruefPlanDataSet.qCommonStructTree1.Rows.Clear();
-            //pruefPlanDataSet.qCommonStructTree1.Merge(pruefPlanDataSet.qCommonStructTree);
-
-            //qListApp Apparatenliste grid
-            qListAppBindingSource.SuspendBinding();
-            qListAppTableAdapter.Fill(
-                pruefPlanDataSet.qListApp, 2, 0, 0, 0);
-            qListAppBindingSource.ResumeBinding();
-
-            //qListAppStatus  Apparatenliste
-            qListAppStatusBindingSource.SuspendBinding();
-            qListAppStatusTableAdapter.Fill(
-                pruefPlanDataSet.qListAppStatus);
-            qListAppStatusBindingSource.ResumeBinding();
-
-            //qListGPB Apparatenliste  procedura
-            qListGPBBindingSource.SuspendBinding();
-            qListGPBTableAdapter.Fill(
-                pruefPlanDataSet.qListGPB, 1, 2, "A");
-            qListGPBBindingSource.ResumeBinding();
-
-
-            //qNamesAnw   Anweisungen
-            qNamesAnwBindingSource.SuspendBinding();
-            qNamesAnwTableAdapter.Fill(
-                pruefPlanDataSet.qNamesAnw, 4);
-            qNamesAnwBindingSource.ResumeBinding();
-
-            //qTemplates    Prufvorlagen
-            qTemplatesTreeBindingSource.SuspendBinding();
-            qTemplatesTreeTableAdapter.Fill(
-             pruefPlanDataSet.qTemplatesTree, 7);
-            qTemplatesTreeBindingSource.ResumeBinding();
-
-            //qNames     Regularium
-            qNamesRegBindingSource.SuspendBinding();
-            qNamesRegTableAdapter.Fill(
-                pruefPlanDataSet.qNamesReg, 5);
-            qNamesRegBindingSource.ResumeBinding();
-
-                //Names lookupedit in tree
-                //namesBindingSource.SuspendBinding();
-                //namesTableAdapter.Fill(
-                //    pruefPlanDataSet.Names,3, 1);
-                //namesBindingSource.ResumeBinding();
-
-            //PIV lookupedit
-            qListPIVBindingSource.SuspendBinding();
-            qListPIVTableAdapter.Fill(
-                pruefPlanDataSet.qListPIV, 1);
-            qListPIVBindingSource.ResumeBinding();
-            //PRIO lookupedit
-            qListPRIOBindingSource.SuspendBinding();
-            qListPRIOTableAdapter.Fill(
-                pruefPlanDataSet.qListPRIO, 5);
-            qListPRIOBindingSource.ResumeBinding();
-            //BZ lookupedit
-            qListBZBindingSource.SuspendBinding();
-            qListBZTableAdapter.Fill(
-                pruefPlanDataSet.qListBZ, 2);
-            qListBZBindingSource.ResumeBinding();
-            //PD lookupedit
-            qListPDBindingSource.SuspendBinding();
-            qListPDTableAdapter.Fill(
-                pruefPlanDataSet.qListPD, 4);
-            qListPDBindingSource.ResumeBinding();
-            //GP lookupedit
-            qListGPBindingSource.SuspendBinding();
-            qListGPTableAdapter.Fill(
-                pruefPlanDataSet.qListGP, 6);
-            qListGPBindingSource.ResumeBinding();
-            //MC lookupedit
-            qListMCBindingSource.SuspendBinding();
-            qListMCTableAdapter.Fill(
-                pruefPlanDataSet.qListMC, 7);
-            qListMCBindingSource.ResumeBinding();
-            //SU lookupedit
-            qListSUBindingSource.SuspendBinding();
-            qListSUTableAdapter.Fill(
-                pruefPlanDataSet.qListSU, 10);
-            qListSUBindingSource.ResumeBinding();
-            //EIE lookupedit
-            qListEIEBindingSource.SuspendBinding();
-            qListEIETableAdapter.Fill(
-                pruefPlanDataSet.qListEIE, 12);
-            qListEIEBindingSource.ResumeBinding();
-            //PV lookupedit
-            qListPVBindingSource.SuspendBinding();
-            qListPVTableAdapter.Fill(
-                pruefPlanDataSet.qListPV, 13);
-            qListPVBindingSource.ResumeBinding();
-            //PO lookupedit
-            qListPOBindingSource.SuspendBinding();
-            qListPOTableAdapter.Fill(
-                pruefPlanDataSet.qListPO, 14);
-            qListPOBindingSource.ResumeBinding();
-            //DAO lookupedit
-            qListDAOBindingSource.SuspendBinding();
-            qListDAOTableAdapter.Fill(
-                pruefPlanDataSet.qListDAO, 15);
-            qListDAOBindingSource.ResumeBinding();
+            
 
             Cursor.Current = Cursors.Default;
         }
@@ -216,8 +110,7 @@ namespace WindowsFormsApp1
                         try
                         {
                             //pruefPlanDataSet.AcceptChanges();
-                            pruefPlanDataSet.qCommonStructTree.AcceptChanges();
-                            
+                          
                           
                             // ScheduledTasksTreeList   treelist view
                             //qCommonStructTree      datatable 

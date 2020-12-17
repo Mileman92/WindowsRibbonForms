@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
             Application.SetCompatibleTextRenderingDefault(false);
             //  Application.Run(new RibbonForm1());
 
-            Application.Run(new RibbonForm3());
+            Application.Run(new RibbonForm1());
 
 
             //RibbonForm1 MAIN

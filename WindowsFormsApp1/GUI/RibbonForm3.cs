@@ -22,55 +22,11 @@ namespace WindowsFormsApp1
 
 
 
-            //Prüfarbeiten - Prüfungsstatus: offen
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, 3, -1, "ALLE", "ALLE", "ALLE", 0, 250000, "m.markovic"
-            ) ;
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+           
 
 
             //Prufobjekte
-            tfGetScheduledTasksTreeCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksTreeCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksTreeCurrent, 3, -1, "ALLE", "ALLE", "ALLE", 0, "m.markovic");
-            tfGetScheduledTasksTreeCurrentBindingSource.ResumeBinding();
-
-            //Train Journal
-            timeTrainJournalBindingSource.SuspendBinding();
-            timeTrainJournalTableAdapter.Fill(
-                pruefExecDataSet.TimeTrainJournal, 2090892);
-            timeTrainJournalBindingSource.ResumeBinding();
-
-            //qScheduledTasksCurrent vertical grid
-            qScheduledTasksCurrentDetailBindingSource.SuspendBinding();
-            qScheduledTasksCurrentDetailTableAdapter.Fill(
-                pruefExecDataSet.qScheduledTasksCurrentDetail, 1259703);
-            qScheduledTasksCurrentDetailBindingSource.ResumeBinding();
-
-            // greatPlan  lookupedit combobox Anlage
-            greatPlanDTBindingSource.SuspendBinding();
-            greatPlanDTTableAdapter.Fill(
-                pruefExecDataSet.GreatPlanDT, "m.markovic");
-            greatPlanDTBindingSource.ResumeBinding();
-
-            //worksite  lookupedit combobox  Betrieb
-            worksiteListBindingSource.SuspendBinding();
-            worksiteListTableAdapter.Fill(
-                pruefExecDataSet.WorksiteList, 3, "m.markovic");
-            worksiteListBindingSource.ResumeBinding();
-
-            //listBuilding  lookupedit combobox  Gebaude
-            listBuildingBindingSource.SuspendBinding();
-            listBuildingTableAdapter.Fill(
-                pruefExecDataSet.ListBuilding, 1, 1);
-            listBuildingBindingSource.ResumeBinding();
-
-            //listRM
-            listRMBindingSource.SuspendBinding();
-            listRMTableAdapter.Fill(
-                pruefExecDataSet.ListRM, 8);
-            listRMBindingSource.ResumeBinding();
+           
 
         }
 
@@ -78,18 +34,7 @@ namespace WindowsFormsApp1
         {
             //selected in lookupedit Anlage
 
-            int antlageIndex = Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString());
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, antlageIndex, -1, "ALLE", "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
-
-            tfGetScheduledTasksTreeCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksTreeCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksTreeCurrent, antlageIndex, -1, "ALLE", "ALLE", "ALLE", broj(), "m.markovic");
-            tfGetScheduledTasksTreeCurrentBindingSource.ResumeBinding();
+           
         }
 
         private void barButtonSchließen_ItemClick(object sender, ItemClickEventArgs e)
@@ -111,37 +56,13 @@ namespace WindowsFormsApp1
         private void BetriebLookUpEdit_EditValueChanged(object sender, EventArgs e)
         {   
             //selected in lookupedit Betrieb
-            int antlageIndex = Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString());
-            int betriebIndex = Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString());
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, antlageIndex, betriebIndex, "ALLE", "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
-
-            tfGetScheduledTasksTreeCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksTreeCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksTreeCurrent, antlageIndex, betriebIndex, "ALLE", "ALLE", "ALLE", broj(), "m.markovic");
-            tfGetScheduledTasksTreeCurrentBindingSource.ResumeBinding();
+            
         }
 
         private void GebaudeLookUpEdit_EditValueChanged(object sender, EventArgs e)
         {
             //selected in lookupedit Gebaude
-            int antlageIndex = Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString());
-            int betriebIndex = Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString());
-            var gebaude = GebaudeLookUpEdit.EditValue.ToString();
-
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, antlageIndex, betriebIndex, gebaude, "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
-
-            tfGetScheduledTasksTreeCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksTreeCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksTreeCurrent, antlageIndex, betriebIndex, gebaude, "ALLE", "ALLE", broj(), "m.markovic");
-            tfGetScheduledTasksTreeCurrentBindingSource.ResumeBinding();
+           
         }
 
 
@@ -186,11 +107,7 @@ namespace WindowsFormsApp1
                 changed = false;
             }
 
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString()), Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString()), GebaudeLookUpEdit.EditValue.ToString(), "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+           
 
             Cursor.Current = Cursors.Default;
         }
@@ -235,11 +152,7 @@ namespace WindowsFormsApp1
             }
 
 
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString()), Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString()), GebaudeLookUpEdit.EditValue.ToString(), "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+           
 
             Cursor.Current = Cursors.Default;
         }
@@ -283,11 +196,7 @@ namespace WindowsFormsApp1
                 changed = false;
             }
 
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString()), Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString()), GebaudeLookUpEdit.EditValue.ToString(), "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+        
 
             Cursor.Current = Cursors.Default;
         }
@@ -331,11 +240,7 @@ namespace WindowsFormsApp1
                 changed = false;
             }
 
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString()), Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString()), GebaudeLookUpEdit.EditValue.ToString(), "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+          
 
             Cursor.Current = Cursors.Default;
         }
@@ -380,11 +285,7 @@ namespace WindowsFormsApp1
             }
 
 
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString()), Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString()), GebaudeLookUpEdit.EditValue.ToString(), "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+          
 
             Cursor.Current = Cursors.Default;
         }
@@ -428,12 +329,7 @@ namespace WindowsFormsApp1
                 changed = false;
             }
 
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, Convert.ToInt32(AnlageLookUpEdit.EditValue.ToString()), Convert.ToInt32(BetriebLookUpEdit.EditValue.ToString()), GebaudeLookUpEdit.EditValue.ToString(), "ALLE", "ALLE", broj(), 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
-
+         
             Cursor.Current = Cursors.Default;
         }
 

@@ -30,39 +30,39 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RibbonForm3));
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem9 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions7 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject25 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject26 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject27 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SuperToolTip superToolTip19 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem19 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip20 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem20 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip21 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem21 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip22 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem22 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip23 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem23 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip24 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem24 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip25 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem25 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip26 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem26 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip27 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem27 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions9 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject33 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject34 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject35 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject36 = new DevExpress.Utils.SerializableAppearanceObject();
             this.repositoryItemLookUpEdit5 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
             this.imageCollectionStatus = new DevExpress.Utils.ImageCollection(this.components);
             this.imageCollection16x16 = new DevExpress.Utils.ImageCollection(this.components);
@@ -73,8 +73,6 @@
             this.dockPanel2Prüfarbeit = new DevExpress.XtraBars.Docking.DockPanel();
             this.controlContainer2 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.vGridControl1 = new DevExpress.XtraVerticalGrid.VGridControl();
-            this.qScheduledTasksCurrentDetailBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pruefExecDataSet = new WindowsFormsApp1.DAL.PruefExecDataSet();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar1 = new DevExpress.XtraBars.Bar();
             this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
@@ -118,7 +116,6 @@
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.lookUpEditListRM = new DevExpress.XtraEditors.LookUpEdit();
-            this.listRMBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.imageComboBoxEdit1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
@@ -154,15 +151,12 @@
             this.colDK = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colEIE = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colIDA = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.tfGetScheduledTasksTreeCurrentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pruefExecDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.repositoryItemImageComboBox3 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
             this.imageColl16Nodes = new DevExpress.Utils.ImageCollection(this.components);
             this.panelContainer1 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanePrüfarbeitenPrü = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.ScheduledTasksGridControl = new DevExpress.XtraGrid.GridControl();
-            this.tfGetScheduledTasksListCurrentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bandedGridView1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridView();
             this.gridBand1Prüfzyklus = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -250,13 +244,10 @@
             this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
             this.AnlageLookUpEdit = new DevExpress.XtraBars.BarEditItem();
             this.AnlageItemLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
-            this.greatPlanDTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.BetriebLookUpEdit = new DevExpress.XtraBars.BarEditItem();
             this.BetriebItemLookUpEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
-            this.worksiteListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.GebaudeLookUpEdit = new DevExpress.XtraBars.BarEditItem();
             this.GebaudeItemLookUpEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
-            this.listBuildingBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DetailAnzeigen = new DevExpress.XtraBars.BarButtonItem();
             this.ImBaumAnzeigen = new DevExpress.XtraBars.BarButtonItem();
             this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
@@ -276,7 +267,6 @@
             this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
             this.controlContainer1 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.JournalGridControl = new DevExpress.XtraGrid.GridControl();
-            this.timeTrainJournalBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.altImageComboBox = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
@@ -291,17 +281,9 @@
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.dateTimeChartRangeControlClient1 = new DevExpress.XtraEditors.DateTimeChartRangeControlClient();
-            this.tf_GetScheduledTasksListCurrentTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.tf_GetScheduledTasksListCurrentTableAdapter();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
-            this.tf_GetScheduledTasksTreeCurrentTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.tf_GetScheduledTasksTreeCurrentTableAdapter();
-            this.greatPlanDTTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.GreatPlanDTTableAdapter();
-            this.worksiteListTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.WorksiteListTableAdapter();
-            this.listBuildingTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.ListBuildingTableAdapter();
-            this.timeTrainJournalTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.TimeTrainJournalTableAdapter();
-            this.listRMTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.ListRMTableAdapter();
             this.popupMenuPrufarbeiten = new DevExpress.XtraBars.PopupMenu(this.components);
             this.ActionImageList = new DevExpress.Utils.ImageCollection(this.components);
-            this.qScheduledTasksCurrentDetailTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.qScheduledTasksCurrentDetailTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollectionStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection16x16)).BeginInit();
@@ -311,8 +293,6 @@
             this.dockPanel2Prüfarbeit.SuspendLayout();
             this.controlContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vGridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qScheduledTasksCurrentDetailBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefExecDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRadioGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).BeginInit();
@@ -324,7 +304,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEditListRM.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listRMBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel2)).BeginInit();
             this.tablePanel2.SuspendLayout();
@@ -333,25 +312,19 @@
             this.dockPanelPrüfobjekte.SuspendLayout();
             this.dockPanel1_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ScheduledTasksTreeList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tfGetScheduledTasksTreeCurrentBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefExecDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageColl16Nodes)).BeginInit();
             this.panelContainer1.SuspendLayout();
             this.dockPanePrüfarbeitenPrü.SuspendLayout();
             this.dockPanel2_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ScheduledTasksGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tfGetScheduledTasksListCurrentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bandedGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBoxStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExIstSchutzZone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AnlageItemLookUpEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.greatPlanDTBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BetriebItemLookUpEdit2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.worksiteListBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GebaudeItemLookUpEdit3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBuildingBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).BeginInit();
@@ -362,7 +335,6 @@
             this.dockPanel1.SuspendLayout();
             this.controlContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.JournalGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeTrainJournalBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.altImageComboBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.neuImageComboBox)).BeginInit();
@@ -553,8 +525,7 @@
             // 
             // vGridControl1
             // 
-            this.vGridControl1.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.vGridControl1.DataSource = this.qScheduledTasksCurrentDetailBindingSource;
+            this.vGridControl1.Cursor = System.Windows.Forms.Cursors.Default;
             this.vGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.vGridControl1.LayoutStyle = DevExpress.XtraVerticalGrid.LayoutViewStyle.SingleRecordView;
             this.vGridControl1.Location = new System.Drawing.Point(0, 0);
@@ -569,16 +540,6 @@
             this.vGridControl1.Size = new System.Drawing.Size(278, 538);
             this.vGridControl1.TabIndex = 1;
             this.vGridControl1.TreeButtonStyle = DevExpress.XtraVerticalGrid.TreeButtonStyle.TreeView;
-            // 
-            // qScheduledTasksCurrentDetailBindingSource
-            // 
-            this.qScheduledTasksCurrentDetailBindingSource.DataMember = "qScheduledTasksCurrentDetail";
-            this.qScheduledTasksCurrentDetailBindingSource.DataSource = this.pruefExecDataSet;
-            // 
-            // pruefExecDataSet
-            // 
-            this.pruefExecDataSet.DataSetName = "PruefExecDataSet";
-            this.pruefExecDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // barManager1
             // 
@@ -959,18 +920,12 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEditListRM.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "Names", 80, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
-            this.lookUpEditListRM.Properties.DataSource = this.listRMBindingSource;
             this.lookUpEditListRM.Properties.DisplayMember = "Name";
             this.lookUpEditListRM.Properties.NullText = "";
             this.lookUpEditListRM.Properties.ShowHeader = false;
             this.lookUpEditListRM.Properties.ValueMember = "Code";
             this.lookUpEditListRM.Size = new System.Drawing.Size(210, 20);
             this.lookUpEditListRM.TabIndex = 5;
-            // 
-            // listRMBindingSource
-            // 
-            this.listRMBindingSource.DataMember = "ListRM";
-            this.listRMBindingSource.DataSource = this.pruefExecDataSet;
             // 
             // labelControl9
             // 
@@ -1150,9 +1105,7 @@
             this.colDK,
             this.colEIE,
             this.colIDA});
-            this.ScheduledTasksTreeList.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tfGetScheduledTasksTreeCurrentBindingSource, "Descript", true));
             this.ScheduledTasksTreeList.DataMember = "tf_GetScheduledTasksTreeCurrent";
-            this.ScheduledTasksTreeList.DataSource = this.pruefExecDataSet;
             this.ScheduledTasksTreeList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ScheduledTasksTreeList.ImageIndexFieldName = "IDGrp";
             this.ScheduledTasksTreeList.KeyFieldName = "IDA";
@@ -1300,16 +1253,6 @@
             this.colIDA.VisibleIndex = 2;
             this.colIDA.Width = 102;
             // 
-            // tfGetScheduledTasksTreeCurrentBindingSource
-            // 
-            this.tfGetScheduledTasksTreeCurrentBindingSource.DataMember = "tf_GetScheduledTasksTreeCurrent";
-            this.tfGetScheduledTasksTreeCurrentBindingSource.DataSource = this.pruefExecDataSetBindingSource;
-            // 
-            // pruefExecDataSetBindingSource
-            // 
-            this.pruefExecDataSetBindingSource.DataSource = this.pruefExecDataSet;
-            this.pruefExecDataSetBindingSource.Position = 0;
-            // 
             // repositoryItemImageComboBox3
             // 
             this.repositoryItemImageComboBox3.AutoHeight = false;
@@ -1377,7 +1320,6 @@
             // ScheduledTasksGridControl
             // 
             this.ScheduledTasksGridControl.AllowRestoreSelectionAndFocusedRow = DevExpress.Utils.DefaultBoolean.True;
-            this.ScheduledTasksGridControl.DataSource = this.tfGetScheduledTasksListCurrentBindingSource;
             this.ScheduledTasksGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ScheduledTasksGridControl.EmbeddedNavigator.Buttons.Append.Visible = false;
             this.ScheduledTasksGridControl.EmbeddedNavigator.Buttons.CancelEdit.Visible = false;
@@ -1400,11 +1342,6 @@
             this.ScheduledTasksGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.bandedGridView1});
             this.ScheduledTasksGridControl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ScheduledTasksGridControl_MouseClick);
-            // 
-            // tfGetScheduledTasksListCurrentBindingSource
-            // 
-            this.tfGetScheduledTasksListCurrentBindingSource.DataMember = "tf_GetScheduledTasksListCurrent";
-            this.tfGetScheduledTasksListCurrentBindingSource.DataSource = this.pruefExecDataSetBindingSource;
             // 
             // bandedGridView1
             // 
@@ -1488,9 +1425,9 @@
             // repositoryItemImageComboBoxStatus
             // 
             this.repositoryItemImageComboBoxStatus.AllowFocused = false;
-            editorButtonImageOptions1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            editorButtonImageOptions7.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.repositoryItemImageComboBoxStatus.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo, "", -1, true, true, true, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo, "", -1, true, true, true, editorButtonImageOptions7, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject25, serializableAppearanceObject26, serializableAppearanceObject27, serializableAppearanceObject28, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repositoryItemImageComboBoxStatus.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.repositoryItemImageComboBoxStatus.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("abgelehnt", 3, 3),
@@ -1941,9 +1878,9 @@
             this.SchließenButton.ImageOptions.SvgImageSize = new System.Drawing.Size(32, 32);
             this.SchließenButton.LargeWidth = 70;
             this.SchließenButton.Name = "SchließenButton";
-            toolTipItem1.Text = "Formular schließen";
-            superToolTip1.Items.Add(toolTipItem1);
-            this.SchließenButton.SuperTip = superToolTip1;
+            toolTipItem19.Text = "Formular schließen";
+            superToolTip19.Items.Add(toolTipItem19);
+            this.SchließenButton.SuperTip = superToolTip19;
             this.SchließenButton.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonSchließen_ItemClick);
             // 
             // barButtonBaumVerankern
@@ -1956,9 +1893,9 @@
             this.barButtonBaumVerankern.ItemAppearance.Pressed.Options.UseBackColor = true;
             this.barButtonBaumVerankern.LargeWidth = 70;
             this.barButtonBaumVerankern.Name = "barButtonBaumVerankern";
-            toolTipItem2.Text = "Ein- bzw. Ausklappen des linken Anzeigebaumes  ";
-            superToolTip2.Items.Add(toolTipItem2);
-            this.barButtonBaumVerankern.SuperTip = superToolTip2;
+            toolTipItem20.Text = "Ein- bzw. Ausklappen des linken Anzeigebaumes  ";
+            superToolTip20.Items.Add(toolTipItem20);
+            this.barButtonBaumVerankern.SuperTip = superToolTip20;
             this.barButtonBaumVerankern.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonBaumVerankern_ItemClick);
             // 
             // NeueSeiteButton
@@ -1979,9 +1916,9 @@
             this.ExportExcel.ImageOptions.LargeImageIndex = 8;
             this.ExportExcel.LargeWidth = 60;
             this.ExportExcel.Name = "ExportExcel";
-            toolTipItem3.Text = "Export der angezeigten Datensätze als Excel-Datei";
-            superToolTip3.Items.Add(toolTipItem3);
-            this.ExportExcel.SuperTip = superToolTip3;
+            toolTipItem21.Text = "Export der angezeigten Datensätze als Excel-Datei";
+            superToolTip21.Items.Add(toolTipItem21);
+            this.ExportExcel.SuperTip = superToolTip21;
             this.ExportExcel.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.ExportExcel_ItemClick);
             // 
             // DruckenEditBar
@@ -2003,9 +1940,9 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButton2SortierennachEtage),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButton2SortierenAkyloseKennung)});
             this.DruckenEditBar.Name = "DruckenEditBar";
-            toolTipItem4.Text = "Auswahlmöglichkeit verschiedener Druckfunktionen";
-            superToolTip4.Items.Add(toolTipItem4);
-            this.DruckenEditBar.SuperTip = superToolTip4;
+            toolTipItem22.Text = "Auswahlmöglichkeit verschiedener Druckfunktionen";
+            superToolTip22.Items.Add(toolTipItem22);
+            this.DruckenEditBar.SuperTip = superToolTip22;
             // 
             // Berichtkompakttext
             // 
@@ -2089,9 +2026,9 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.ProtokollText),
             new DevExpress.XtraBars.LinkPersistInfo(this.AnzeigenbarCheck)});
             this.TabellenAnsichtbarSub.Name = "TabellenAnsichtbarSub";
-            toolTipItem5.Text = "Auswahl verschiedenen Ansichts-Möglichkeiten der Daten";
-            superToolTip5.Items.Add(toolTipItem5);
-            this.TabellenAnsichtbarSub.SuperTip = superToolTip5;
+            toolTipItem23.Text = "Auswahl verschiedenen Ansichts-Möglichkeiten der Daten";
+            superToolTip23.Items.Add(toolTipItem23);
+            this.TabellenAnsichtbarSub.SuperTip = superToolTip23;
             // 
             // PrüfarbeitenText
             // 
@@ -2165,10 +2102,10 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.ReparatursystemText),
             new DevExpress.XtraBars.LinkPersistInfo(this.AuswahlinReparatur)});
             this.AktionenEditButton.Name = "AktionenEditButton";
-            toolTipItem6.Text = "Menü zur Weiterbearbeitung oder Verschiebung der angezeigten Datensätze";
-            superToolTip6.Items.Add(toolTipItem6);
-            superToolTip6.MaxWidth = 370;
-            this.AktionenEditButton.SuperTip = superToolTip6;
+            toolTipItem24.Text = "Menü zur Weiterbearbeitung oder Verschiebung der angezeigten Datensätze";
+            superToolTip24.Items.Add(toolTipItem24);
+            superToolTip24.MaxWidth = 370;
+            this.AktionenEditButton.SuperTip = superToolTip24;
             // 
             // RückmeldungText
             // 
@@ -2249,9 +2186,9 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.AuswahlEntfernen),
             new DevExpress.XtraBars.LinkPersistInfo(this.AuswahlInvertieren)});
             this.AuswahlButtonEdit.Name = "AuswahlButtonEdit";
-            toolTipItem7.Text = "Markierung/ Anhaken oder Enthaken der angezeigten Datensätze ";
-            superToolTip7.Items.Add(toolTipItem7);
-            this.AuswahlButtonEdit.SuperTip = superToolTip7;
+            toolTipItem25.Text = "Markierung/ Anhaken oder Enthaken der angezeigten Datensätze ";
+            superToolTip25.Items.Add(toolTipItem25);
+            this.AuswahlButtonEdit.SuperTip = superToolTip25;
             // 
             // AlleAuswählen
             // 
@@ -2285,9 +2222,9 @@
             this.PrüfarbeitenVorschauButton.ImageOptions.LargeImageIndex = 14;
             this.PrüfarbeitenVorschauButton.LargeWidth = 80;
             this.PrüfarbeitenVorschauButton.Name = "PrüfarbeitenVorschauButton";
-            toolTipItem8.Text = "Ansicht zukünftiger Prüfdaten entsprechend Datum-Eingrenzung";
-            superToolTip8.Items.Add(toolTipItem8);
-            this.PrüfarbeitenVorschauButton.SuperTip = superToolTip8;
+            toolTipItem26.Text = "Ansicht zukünftiger Prüfdaten entsprechend Datum-Eingrenzung";
+            superToolTip26.Items.Add(toolTipItem26);
+            this.PrüfarbeitenVorschauButton.SuperTip = superToolTip26;
             this.PrüfarbeitenVorschauButton.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.PrüfarbeitenVorschauButton_ItemClick);
             // 
             // OffenCheckbox
@@ -2435,10 +2372,10 @@
             this.HistorieSave.ImageOptions.LargeImageIndex = 8;
             this.HistorieSave.LargeWidth = 60;
             this.HistorieSave.Name = "HistorieSave";
-            toolTipItem9.Text = "Export der Prüfdaten-Historie aller vorhandenen Jahre als Excel-Datei";
-            superToolTip9.Items.Add(toolTipItem9);
-            superToolTip9.MaxWidth = 335;
-            this.HistorieSave.SuperTip = superToolTip9;
+            toolTipItem27.Text = "Export der Prüfdaten-Historie aller vorhandenen Jahre als Excel-Datei";
+            superToolTip27.Items.Add(toolTipItem27);
+            superToolTip27.MaxWidth = 335;
+            this.HistorieSave.SuperTip = superToolTip27;
             // 
             // barStaticPrüfarbeiten
             // 
@@ -2481,7 +2418,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.AnlageItemLookUpEdit1.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "")});
-            this.AnlageItemLookUpEdit1.DataSource = this.greatPlanDTBindingSource;
             this.AnlageItemLookUpEdit1.DisplayMember = "Name";
             this.AnlageItemLookUpEdit1.KeyMember = "Ordinal";
             this.AnlageItemLookUpEdit1.Name = "AnlageItemLookUpEdit1";
@@ -2489,11 +2425,6 @@
             this.AnlageItemLookUpEdit1.ShowFooter = false;
             this.AnlageItemLookUpEdit1.ShowHeader = false;
             this.AnlageItemLookUpEdit1.ValueMember = "ID";
-            // 
-            // greatPlanDTBindingSource
-            // 
-            this.greatPlanDTBindingSource.DataMember = "GreatPlanDT";
-            this.greatPlanDTBindingSource.DataSource = this.pruefExecDataSetBindingSource;
             // 
             // BetriebLookUpEdit
             // 
@@ -2511,7 +2442,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.BetriebItemLookUpEdit2.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "")});
-            this.BetriebItemLookUpEdit2.DataSource = this.worksiteListBindingSource;
             this.BetriebItemLookUpEdit2.DisplayMember = "Name";
             this.BetriebItemLookUpEdit2.KeyMember = "Name";
             this.BetriebItemLookUpEdit2.Name = "BetriebItemLookUpEdit2";
@@ -2519,11 +2449,6 @@
             this.BetriebItemLookUpEdit2.ShowFooter = false;
             this.BetriebItemLookUpEdit2.ShowHeader = false;
             this.BetriebItemLookUpEdit2.ValueMember = "ID";
-            // 
-            // worksiteListBindingSource
-            // 
-            this.worksiteListBindingSource.DataMember = "WorksiteList";
-            this.worksiteListBindingSource.DataSource = this.pruefExecDataSetBindingSource;
             // 
             // GebaudeLookUpEdit
             // 
@@ -2541,7 +2466,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.GebaudeItemLookUpEdit3.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "")});
-            this.GebaudeItemLookUpEdit3.DataSource = this.listBuildingBindingSource;
             this.GebaudeItemLookUpEdit3.DisplayMember = "Name";
             this.GebaudeItemLookUpEdit3.KeyMember = "Name";
             this.GebaudeItemLookUpEdit3.Name = "GebaudeItemLookUpEdit3";
@@ -2549,11 +2473,6 @@
             this.GebaudeItemLookUpEdit3.ShowFooter = false;
             this.GebaudeItemLookUpEdit3.ShowHeader = false;
             this.GebaudeItemLookUpEdit3.ValueMember = "Name";
-            // 
-            // listBuildingBindingSource
-            // 
-            this.listBuildingBindingSource.DataMember = "ListBuilding";
-            this.listBuildingBindingSource.DataSource = this.pruefExecDataSetBindingSource;
             // 
             // DetailAnzeigen
             // 
@@ -2711,7 +2630,6 @@
             // 
             // JournalGridControl
             // 
-            this.JournalGridControl.DataSource = this.timeTrainJournalBindingSource;
             this.JournalGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.JournalGridControl.Location = new System.Drawing.Point(0, 0);
             this.JournalGridControl.MainView = this.gridView1;
@@ -2724,11 +2642,6 @@
             this.JournalGridControl.TabIndex = 6;
             this.JournalGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
-            // 
-            // timeTrainJournalBindingSource
-            // 
-            this.timeTrainJournalBindingSource.DataMember = "TimeTrainJournal";
-            this.timeTrainJournalBindingSource.DataSource = this.pruefExecDataSet;
             // 
             // gridView1
             // 
@@ -2761,9 +2674,9 @@
             // altImageComboBox
             // 
             this.altImageComboBox.AutoHeight = false;
-            editorButtonImageOptions2.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            editorButtonImageOptions8.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.altImageComboBox.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, false, false, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, false, false, false, editorButtonImageOptions8, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject29, serializableAppearanceObject30, serializableAppearanceObject31, serializableAppearanceObject32, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.altImageComboBox.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.altImageComboBox.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("offen", 0, 0),
@@ -2791,9 +2704,9 @@
             // neuImageComboBox
             // 
             this.neuImageComboBox.AutoHeight = false;
-            editorButtonImageOptions3.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            editorButtonImageOptions9.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.neuImageComboBox.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, false, false, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, false, false, false, editorButtonImageOptions9, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject33, serializableAppearanceObject34, serializableAppearanceObject35, serializableAppearanceObject36, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.neuImageComboBox.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.neuImageComboBox.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("offen", 0, 0),
@@ -2910,34 +2823,6 @@
             this.labelControl4.TabIndex = 2;
             this.labelControl4.Text = "Prüfungsstatus:";
             // 
-            // tf_GetScheduledTasksListCurrentTableAdapter
-            // 
-            this.tf_GetScheduledTasksListCurrentTableAdapter.ClearBeforeFill = true;
-            // 
-            // tf_GetScheduledTasksTreeCurrentTableAdapter
-            // 
-            this.tf_GetScheduledTasksTreeCurrentTableAdapter.ClearBeforeFill = true;
-            // 
-            // greatPlanDTTableAdapter
-            // 
-            this.greatPlanDTTableAdapter.ClearBeforeFill = true;
-            // 
-            // worksiteListTableAdapter
-            // 
-            this.worksiteListTableAdapter.ClearBeforeFill = true;
-            // 
-            // listBuildingTableAdapter
-            // 
-            this.listBuildingTableAdapter.ClearBeforeFill = true;
-            // 
-            // timeTrainJournalTableAdapter
-            // 
-            this.timeTrainJournalTableAdapter.ClearBeforeFill = true;
-            // 
-            // listRMTableAdapter
-            // 
-            this.listRMTableAdapter.ClearBeforeFill = true;
-            // 
             // popupMenuPrufarbeiten
             // 
             this.popupMenuPrufarbeiten.ItemLinks.Add(this.DetailAnzeigen);
@@ -2969,10 +2854,6 @@
             this.ActionImageList.Images.SetKeyName(9, "9.png");
             this.ActionImageList.Images.SetKeyName(10, "10.png");
             // 
-            // qScheduledTasksCurrentDetailTableAdapter
-            // 
-            this.qScheduledTasksCurrentDetailTableAdapter.ClearBeforeFill = true;
-            // 
             // RibbonForm3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3000,8 +2881,6 @@
             this.dockPanel2Prüfarbeit.ResumeLayout(false);
             this.controlContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.vGridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qScheduledTasksCurrentDetailBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefExecDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRadioGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).EndInit();
@@ -3014,7 +2893,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEditListRM.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listRMBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel2)).EndInit();
             this.tablePanel2.ResumeLayout(false);
@@ -3024,25 +2902,19 @@
             this.dockPanelPrüfobjekte.ResumeLayout(false);
             this.dockPanel1_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ScheduledTasksTreeList)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tfGetScheduledTasksTreeCurrentBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefExecDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageColl16Nodes)).EndInit();
             this.panelContainer1.ResumeLayout(false);
             this.dockPanePrüfarbeitenPrü.ResumeLayout(false);
             this.dockPanel2_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ScheduledTasksGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tfGetScheduledTasksListCurrentBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bandedGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBoxStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExIstSchutzZone)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AnlageItemLookUpEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.greatPlanDTBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BetriebItemLookUpEdit2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.worksiteListBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GebaudeItemLookUpEdit3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBuildingBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).EndInit();
@@ -3053,7 +2925,6 @@
             this.dockPanel1.ResumeLayout(false);
             this.controlContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.JournalGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeTrainJournalBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.altImageComboBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.neuImageComboBox)).EndInit();
@@ -3201,10 +3072,6 @@
         private DevExpress.XtraEditors.DateEdit dateEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.DateTimeChartRangeControlClient dateTimeChartRangeControlClient1;
-        private System.Windows.Forms.BindingSource tfGetScheduledTasksListCurrentBindingSource;
-        private System.Windows.Forms.BindingSource pruefExecDataSetBindingSource;
-        private DAL.PruefExecDataSet pruefExecDataSet;
-        private DAL.PruefExecDataSetTableAdapters.tf_GetScheduledTasksListCurrentTableAdapter tf_GetScheduledTasksListCurrentTableAdapter;
         private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBoxStatus;
         private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
         private DevExpress.XtraVerticalGrid.Rows.CategoryRow Allgemein;
@@ -3262,8 +3129,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemRadioGroup repositoryItemRadioGroup1;
         private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox altImageComboBox;
         private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox neuImageComboBox;
-        private System.Windows.Forms.BindingSource tfGetScheduledTasksTreeCurrentBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.tf_GetScheduledTasksTreeCurrentTableAdapter tf_GetScheduledTasksTreeCurrentTableAdapter;
         private DevExpress.Utils.ImageCollection imageColl16Nodes;
         private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBox3;
         private DevExpress.XtraBars.BarEditItem AnlageLookUpEdit;
@@ -3273,22 +3138,10 @@
         private DevExpress.XtraBars.BarEditItem GebaudeLookUpEdit;
         private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit GebaudeItemLookUpEdit3;
         private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit repositoryItemLookUpEdit5;
-        private System.Windows.Forms.BindingSource greatPlanDTBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.GreatPlanDTTableAdapter greatPlanDTTableAdapter;
-        private System.Windows.Forms.BindingSource worksiteListBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.WorksiteListTableAdapter worksiteListTableAdapter;
-        private System.Windows.Forms.BindingSource listBuildingBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.ListBuildingTableAdapter listBuildingTableAdapter;
-        private System.Windows.Forms.BindingSource timeTrainJournalBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.TimeTrainJournalTableAdapter timeTrainJournalTableAdapter;
-        private System.Windows.Forms.BindingSource listRMBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.ListRMTableAdapter listRMTableAdapter;
         private DevExpress.XtraBars.PopupMenu popupMenuPrufarbeiten;
         private DevExpress.Utils.ImageCollection ActionImageList;
         private DevExpress.XtraBars.BarButtonItem DetailAnzeigen;
         private DevExpress.XtraBars.BarButtonItem ImBaumAnzeigen;
-        private System.Windows.Forms.BindingSource qScheduledTasksCurrentDetailBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.qScheduledTasksCurrentDetailTableAdapter qScheduledTasksCurrentDetailTableAdapter;
         private DevExpress.XtraBars.BarEditItem barEditItem1;
         private DevExpress.XtraEditors.Repository.RepositoryItemComboBox repositoryItemComboBox4;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand1Prüfzyklus;

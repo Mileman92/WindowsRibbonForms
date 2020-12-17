@@ -19,17 +19,7 @@ namespace WindowsFormsApp1.GUI
             InitializeComponent();
 
             //Train Journal
-            timeTrainJournalBindingSource.SuspendBinding();
-            timeTrainJournalTableAdapter.Fill(
-                pruefExecDataSet.TimeTrainJournal, 2090892);
-            timeTrainJournalBindingSource.ResumeBinding();
-
-            //Vorschau
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, 3, -1, "ALLE", "ALLE", "ALLE", 0, 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+          
         }
 
         private void RibbonForm5_Load(object sender, EventArgs e)
@@ -73,11 +63,6 @@ namespace WindowsFormsApp1.GUI
                 barCheckÜberfällig.Checked = false;
             }
             //Vorschau
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, 3, -1, "ALLE", "ALLE", "ALLE", -1, 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
         }
 
         private void barCheckOffen_CheckedChanged(object sender, ItemClickEventArgs e)
@@ -89,11 +74,7 @@ namespace WindowsFormsApp1.GUI
                 barCheckÜberfällig.Checked = false;
             }
             //Vorschau
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, 3, -1, "ALLE", "ALLE", "ALLE", 0, 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+          
 
            
         }
@@ -107,11 +88,7 @@ namespace WindowsFormsApp1.GUI
                 barCheckÜberfällig.Checked = false;
             }
             //Vorschau
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, 3, -1, "ALLE", "ALLE", "ALLE", 2, 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+         
         }
 
         private void barCheckÜberfällig_CheckedChanged(object sender, ItemClickEventArgs e)
@@ -123,11 +100,7 @@ namespace WindowsFormsApp1.GUI
                 barCheckInArbeit.Checked = false;
             }
             //Vorschau
-            tfGetScheduledTasksListCurrentBindingSource.SuspendBinding();
-            tf_GetScheduledTasksListCurrentTableAdapter.Fill(
-                pruefExecDataSet.tf_GetScheduledTasksListCurrent, 3, -1, "ALLE", "ALLE", "ALLE", 4, 250000, "m.markovic"
-            );
-            tfGetScheduledTasksListCurrentBindingSource.ResumeBinding();
+         
         }
 
         private void barButtonExport_ItemClick(object sender, ItemClickEventArgs e)

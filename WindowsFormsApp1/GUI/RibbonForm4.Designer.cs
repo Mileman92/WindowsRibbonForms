@@ -38,8 +38,6 @@
             this.dockPanelPrüfarbeit = new DevExpress.XtraBars.Docking.DockPanel();
             this.controlContainer1 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.vGridControl1 = new DevExpress.XtraVerticalGrid.VGridControl();
-            this.qScheduledTasksCurrentDetailBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.aPPDataSet = new WindowsFormsApp1.DAL.APPDataSet();
             this.repositoryItemRadioGroup1 = new DevExpress.XtraEditors.Repository.RepositoryItemRadioGroup();
             this.Allgemein = new DevExpress.XtraVerticalGrid.Rows.CategoryRow();
             this.row = new DevExpress.XtraVerticalGrid.Rows.EditorRow();
@@ -66,7 +64,6 @@
             this.dockPanelMassrückmeldung = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
-            this.qListRMBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tablePanel1 = new DevExpress.Utils.Layout.TablePanel();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
@@ -86,7 +83,6 @@
             this.dockPanelApparaten = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.queryDevicesListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colerwAppNr = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAppNr = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -149,9 +145,6 @@
             this.colfkExSchutzAußen = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colstrExSchutzBemrkung = new DevExpress.XtraGrid.Columns.GridColumn();
             this.dateTimeChartRangeControlClient1 = new DevExpress.XtraEditors.DateTimeChartRangeControlClient();
-            this.queryDevicesListTableAdapter = new WindowsFormsApp1.DAL.APPDataSetTableAdapters.QueryDevicesListTableAdapter();
-            this.qListRMTableAdapter = new WindowsFormsApp1.DAL.APPDataSetTableAdapters.qListRMTableAdapter();
-            this.qScheduledTasksCurrentDetailTableAdapter = new WindowsFormsApp1.DAL.APPDataSetTableAdapters.qScheduledTasksCurrentDetailTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
@@ -159,15 +152,12 @@
             this.dockPanelPrüfarbeit.SuspendLayout();
             this.controlContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vGridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qScheduledTasksCurrentDetailBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aPPDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRadioGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).BeginInit();
             this.stackPanel1.SuspendLayout();
             this.dockPanelMassrückmeldung.SuspendLayout();
             this.dockPanel2_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListRMBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).BeginInit();
             this.tablePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
@@ -180,7 +170,6 @@
             this.dockPanelApparaten.SuspendLayout();
             this.dockPanel1_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.queryDevicesListBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateTimeChartRangeControlClient1)).BeginInit();
             this.SuspendLayout();
@@ -289,7 +278,6 @@
             // vGridControl1
             // 
             this.vGridControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.vGridControl1.DataSource = this.qScheduledTasksCurrentDetailBindingSource;
             this.vGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.vGridControl1.Location = new System.Drawing.Point(0, 0);
             this.vGridControl1.MenuManager = this.ribbon;
@@ -305,16 +293,6 @@
             this.vGridControl1.Size = new System.Drawing.Size(278, 511);
             this.vGridControl1.TabIndex = 1;
             this.vGridControl1.TreeButtonStyle = DevExpress.XtraVerticalGrid.TreeButtonStyle.TreeView;
-            // 
-            // qScheduledTasksCurrentDetailBindingSource
-            // 
-            this.qScheduledTasksCurrentDetailBindingSource.DataMember = "qScheduledTasksCurrentDetail";
-            this.qScheduledTasksCurrentDetailBindingSource.DataSource = this.aPPDataSet;
-            // 
-            // aPPDataSet
-            // 
-            this.aPPDataSet.DataSetName = "APPDataSet";
-            this.aPPDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // repositoryItemRadioGroup1
             // 
@@ -538,18 +516,12 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit1.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name", "Name")});
-            this.lookUpEdit1.Properties.DataSource = this.qListRMBindingSource;
             this.lookUpEdit1.Properties.DisplayMember = "Name";
             this.lookUpEdit1.Properties.NullText = "";
             this.lookUpEdit1.Properties.ShowHeader = false;
             this.lookUpEdit1.Properties.ValueMember = "ID";
             this.lookUpEdit1.Size = new System.Drawing.Size(208, 20);
             this.lookUpEdit1.TabIndex = 13;
-            // 
-            // qListRMBindingSource
-            // 
-            this.qListRMBindingSource.DataMember = "qListRM";
-            this.qListRMBindingSource.DataSource = this.aPPDataSet;
             // 
             // tablePanel1
             // 
@@ -759,7 +731,6 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.DataSource = this.queryDevicesListBindingSource;
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
@@ -769,11 +740,6 @@
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
-            // 
-            // queryDevicesListBindingSource
-            // 
-            this.queryDevicesListBindingSource.DataMember = "QueryDevicesList";
-            this.queryDevicesListBindingSource.DataSource = this.aPPDataSet;
             // 
             // gridView1
             // 
@@ -1375,18 +1341,6 @@
             this.colstrExSchutzBemrkung.VisibleIndex = 59;
             this.colstrExSchutzBemrkung.Width = 70;
             // 
-            // queryDevicesListTableAdapter
-            // 
-            this.queryDevicesListTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListRMTableAdapter
-            // 
-            this.qListRMTableAdapter.ClearBeforeFill = true;
-            // 
-            // qScheduledTasksCurrentDetailTableAdapter
-            // 
-            this.qScheduledTasksCurrentDetailTableAdapter.ClearBeforeFill = true;
-            // 
             // RibbonForm4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1407,8 +1361,6 @@
             this.dockPanelPrüfarbeit.ResumeLayout(false);
             this.controlContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.vGridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qScheduledTasksCurrentDetailBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aPPDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRadioGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).EndInit();
             this.stackPanel1.ResumeLayout(false);
@@ -1416,7 +1368,6 @@
             this.dockPanel2_Container.ResumeLayout(false);
             this.dockPanel2_Container.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListRMBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).EndInit();
             this.tablePanel1.ResumeLayout(false);
             this.tablePanel1.PerformLayout();
@@ -1430,7 +1381,6 @@
             this.dockPanelApparaten.ResumeLayout(false);
             this.dockPanel1_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.queryDevicesListBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateTimeChartRangeControlClient1)).EndInit();
             this.ResumeLayout(false);
@@ -1471,9 +1421,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DAL.APPDataSet aPPDataSet;
-        private System.Windows.Forms.BindingSource queryDevicesListBindingSource;
-        private DAL.APPDataSetTableAdapters.QueryDevicesListTableAdapter queryDevicesListTableAdapter;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn colerwAppNr;
@@ -1537,10 +1484,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn colfkExSchutzAußen;
         private DevExpress.XtraGrid.Columns.GridColumn colstrExSchutzBemrkung;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit1;
-        private System.Windows.Forms.BindingSource qListRMBindingSource;
-        private DAL.APPDataSetTableAdapters.qListRMTableAdapter qListRMTableAdapter;
-        private System.Windows.Forms.BindingSource qScheduledTasksCurrentDetailBindingSource;
-        private DAL.APPDataSetTableAdapters.qScheduledTasksCurrentDetailTableAdapter qScheduledTasksCurrentDetailTableAdapter;
         private DevExpress.XtraVerticalGrid.VGridControl vGridControl1;
         private DevExpress.XtraVerticalGrid.Rows.CategoryRow Allgemein;
         private DevExpress.XtraVerticalGrid.Rows.EditorRow row;

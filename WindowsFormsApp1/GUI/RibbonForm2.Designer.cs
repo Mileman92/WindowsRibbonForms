@@ -92,19 +92,15 @@
             this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.NodesImageList = new DevExpress.Utils.ImageCollection(this.components);
-            this.qTemplatesTreeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pruefPlanDataSet = new WindowsFormsApp1.DAL.PruefPlanDataSet();
             this.dockPanelAnweisungen = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel7_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.gridControl4 = new DevExpress.XtraGrid.GridControl();
-            this.qNamesAnwBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.ID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Anweisung = new DevExpress.XtraGrid.Columns.GridColumn();
             this.dockPanelApparatenliste = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel8_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.gridControlApparatenliste = new DevExpress.XtraGrid.GridControl();
-            this.qListAppBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -115,16 +111,13 @@
             this.stackPanel1 = new DevExpress.Utils.Layout.StackPanel();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.LookUpEditAnlagezweig = new DevExpress.XtraEditors.TreeListLookUpEdit();
-            this.qListGPBBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeListLookUpEdit1TreeList = new DevExpress.XtraTreeList.TreeList();
             this.colDescript1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.lookUpEditAppStatus = new DevExpress.XtraEditors.LookUpEdit();
-            this.qListAppStatusBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dockPanelRegularium = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel9_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.gridControlRegularium = new DevExpress.XtraGrid.GridControl();
-            this.qNamesRegBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -171,66 +164,55 @@
             this.RulesImageComboBox = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
             this.treeListColumn2PIV = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListPIVLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListPIVBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.repositoryItemTreeListLookUpEdit1TreeList = new DevExpress.XtraTreeList.TreeList();
             this.colCode11 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn2PRIO = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListPRIOLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListPRIOBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.colCode1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn4BZ = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListBZLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListBZBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList5 = new DevExpress.XtraTreeList.TreeList();
             this.colCode2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn5PD = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListPDLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListPDBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList7 = new DevExpress.XtraTreeList.TreeList();
             this.colCode3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn6GP = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListGPLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListGPBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList8 = new DevExpress.XtraTreeList.TreeList();
             this.colCode4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn7MC = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListMCLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListMCBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList9 = new DevExpress.XtraTreeList.TreeList();
             this.colCode5 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName5 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn8SU = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListSULookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListSUBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList10 = new DevExpress.XtraTreeList.TreeList();
             this.colCode6 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName6 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn9PV = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListPVLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListPVBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList12 = new DevExpress.XtraTreeList.TreeList();
             this.colCode8 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName8 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn10PO = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListPOLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListPOBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList13 = new DevExpress.XtraTreeList.TreeList();
             this.colCode9 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName9 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn2DAO = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListDAOLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListDAOBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList14 = new DevExpress.XtraTreeList.TreeList();
             this.colCode10 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colName10 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn4EIE = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.qListEIELookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.qListEIEBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList11 = new DevExpress.XtraTreeList.TreeList();
             this.colCode12 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn5AK = new DevExpress.XtraTreeList.Columns.TreeListColumn();
@@ -238,9 +220,7 @@
             this.treeListColumn2DK = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.DKDateEdit = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
             this.treeListBand2 = new DevExpress.XtraTreeList.Columns.TreeListBand();
-            this.qCommonStructTreeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ListNamesLookUpEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit();
-            this.namesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.treeList15 = new DevExpress.XtraTreeList.TreeList();
             this.colIDN = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colIDRef = new DevExpress.XtraTreeList.Columns.TreeListColumn();
@@ -287,26 +267,7 @@
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.qCommonStructTreeTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qCommonStructTreeTableAdapter();
-            this.qListPRIOTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListPRIOTableAdapter();
-            this.qListPIVTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListPIVTableAdapter();
-            this.qListBZTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListBZTableAdapter();
-            this.qListPDTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListPDTableAdapter();
-            this.qListGPTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListGPTableAdapter();
-            this.qListMCTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListMCTableAdapter();
-            this.qListSUTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListSUTableAdapter();
-            this.qListEIETableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListEIETableAdapter();
-            this.qListPVTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListPVTableAdapter();
-            this.qListPOTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListPOTableAdapter();
-            this.qListDAOTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListDAOTableAdapter();
-            this.namesTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.NamesTableAdapter();
-            this.qNamesRegTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qNamesRegTableAdapter();
-            this.qNamesAnwTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qNamesAnwTableAdapter();
-            this.qListAppStatusTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListAppStatusTableAdapter();
-            this.qListGPBTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListGPBTableAdapter();
-            this.qListAppTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qListAppTableAdapter();
             this.popupMenuPrufplanung = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.qTemplatesTreeTableAdapter = new WindowsFormsApp1.DAL.PruefPlanDataSetTableAdapters.qTemplatesTreeTableAdapter();
             this.popupMenuApparate = new DevExpress.XtraBars.PopupMenu(this.components);
             this.popupMenuAnweisungen = new DevExpress.XtraBars.PopupMenu(this.components);
             this.popupMenuPrufvorlagen = new DevExpress.XtraBars.PopupMenu(this.components);
@@ -319,29 +280,22 @@
             this.controlContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeListPrufvorlagen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NodesImageList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qTemplatesTreeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefPlanDataSet)).BeginInit();
             this.dockPanelAnweisungen.SuspendLayout();
             this.dockPanel7_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qNamesAnwBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             this.dockPanelApparatenliste.SuspendLayout();
             this.dockPanel8_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlApparatenliste)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListAppBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).BeginInit();
             this.stackPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LookUpEditAnlagezweig.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListGPBBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeListLookUpEdit1TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEditAppStatus.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListAppStatusBindingSource)).BeginInit();
             this.dockPanelRegularium.SuspendLayout();
             this.dockPanel9_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlRegularium)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qNamesRegBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView6)).BeginInit();
             this.dockPanel2.SuspendLayout();
             this.dockPanel5.SuspendLayout();
@@ -359,45 +313,32 @@
             ((System.ComponentModel.ISupportInitialize)(this.ExSchutzImageList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RulesImageComboBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPIVLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPIVBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTreeListLookUpEdit1TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPRIOLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPRIOBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListBZLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListBZBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPDLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPDBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListGPLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListGPBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListMCLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListMCBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListSULookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListSUBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPVLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPVBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPOLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPOBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListDAOLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListDAOBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListEIELookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListEIEBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AKDateEdit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AKDateEdit.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DKDateEdit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DKDateEdit.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qCommonStructTreeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ListNamesLookUpEdit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.namesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -745,7 +686,6 @@
             this.treeListColumn2,
             this.treeListColumn4});
             this.treeListPrufvorlagen.ColumnsImageList = this.NodesImageList;
-            this.treeListPrufvorlagen.DataSource = this.qTemplatesTreeBindingSource;
             this.treeListPrufvorlagen.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeListPrufvorlagen.ImageIndexFieldName = "intCsIdGrp";
             this.treeListPrufvorlagen.KeyFieldName = "";
@@ -792,16 +732,6 @@
             this.NodesImageList.Images.SetKeyName(6, "6.png");
             this.NodesImageList.Images.SetKeyName(7, "7.png");
             // 
-            // qTemplatesTreeBindingSource
-            // 
-            this.qTemplatesTreeBindingSource.DataMember = "qTemplatesTree";
-            this.qTemplatesTreeBindingSource.DataSource = this.pruefPlanDataSet;
-            // 
-            // pruefPlanDataSet
-            // 
-            this.pruefPlanDataSet.DataSetName = "PruefPlanDataSet";
-            this.pruefPlanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // dockPanelAnweisungen
             // 
             this.dockPanelAnweisungen.Controls.Add(this.dockPanel7_Container);
@@ -826,7 +756,6 @@
             // 
             // gridControl4
             // 
-            this.gridControl4.DataSource = this.qNamesAnwBindingSource;
             this.gridControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl4.Location = new System.Drawing.Point(0, 0);
             this.gridControl4.MainView = this.gridView2;
@@ -836,11 +765,6 @@
             this.gridControl4.TabIndex = 0;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
-            // 
-            // qNamesAnwBindingSource
-            // 
-            this.qNamesAnwBindingSource.DataMember = "qNamesAnw";
-            this.qNamesAnwBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // gridView2
             // 
@@ -906,7 +830,6 @@
             // 
             // gridControlApparatenliste
             // 
-            this.gridControlApparatenliste.DataSource = this.qListAppBindingSource;
             this.gridControlApparatenliste.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlApparatenliste.EmbeddedNavigator.Buttons.Append.Visible = false;
             this.gridControlApparatenliste.EmbeddedNavigator.Buttons.CancelEdit.Visible = false;
@@ -925,11 +848,6 @@
             this.gridControlApparatenliste.UseEmbeddedNavigator = true;
             this.gridControlApparatenliste.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
-            // 
-            // qListAppBindingSource
-            // 
-            this.qListAppBindingSource.DataMember = "qListApp";
-            this.qListAppBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // gridView5
             // 
@@ -1038,18 +956,12 @@
             this.LookUpEditAnlagezweig.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.LookUpEditAnlagezweig.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.LookUpEditAnlagezweig.Properties.DataSource = this.qListGPBBindingSource;
             this.LookUpEditAnlagezweig.Properties.DisplayMember = "Descript";
             this.LookUpEditAnlagezweig.Properties.NullText = "";
             this.LookUpEditAnlagezweig.Properties.TreeList = this.treeListLookUpEdit1TreeList;
             this.LookUpEditAnlagezweig.Properties.ValueMember = "Key";
             this.LookUpEditAnlagezweig.Size = new System.Drawing.Size(160, 20);
             this.LookUpEditAnlagezweig.TabIndex = 3;
-            // 
-            // qListGPBBindingSource
-            // 
-            this.qListGPBBindingSource.DataMember = "qListGPB";
-            this.qListGPBBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeListLookUpEdit1TreeList
             // 
@@ -1097,18 +1009,12 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEditAppStatus.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("strStaName", "Name")});
-            this.lookUpEditAppStatus.Properties.DataSource = this.qListAppStatusBindingSource;
             this.lookUpEditAppStatus.Properties.DisplayMember = "strStaName";
             this.lookUpEditAppStatus.Properties.NullText = "";
             this.lookUpEditAppStatus.Properties.ShowHeader = false;
             this.lookUpEditAppStatus.Properties.ValueMember = "intStaNummerID";
             this.lookUpEditAppStatus.Size = new System.Drawing.Size(333, 20);
             this.lookUpEditAppStatus.TabIndex = 5;
-            // 
-            // qListAppStatusBindingSource
-            // 
-            this.qListAppStatusBindingSource.DataMember = "qListAppStatus";
-            this.qListAppStatusBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // dockPanelRegularium
             // 
@@ -1134,7 +1040,6 @@
             // 
             // gridControlRegularium
             // 
-            this.gridControlRegularium.DataSource = this.qNamesRegBindingSource;
             this.gridControlRegularium.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlRegularium.Location = new System.Drawing.Point(0, 0);
             this.gridControlRegularium.MainView = this.gridView6;
@@ -1144,11 +1049,6 @@
             this.gridControlRegularium.TabIndex = 0;
             this.gridControlRegularium.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView6});
-            // 
-            // qNamesRegBindingSource
-            // 
-            this.qNamesRegBindingSource.DataMember = "qNamesReg";
-            this.qNamesRegBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // gridView6
             // 
@@ -1404,7 +1304,6 @@
             this.treeListColumn4EIE,
             this.treeListColumn5AK,
             this.treeListColumn2DK});
-            this.ScheduledTasksTreeList.DataSource = this.qCommonStructTreeBindingSource;
             this.ScheduledTasksTreeList.Dock = System.Windows.Forms.DockStyle.Left;
             this.ScheduledTasksTreeList.ImageIndexFieldName = "intCsIdGrp";
             this.ScheduledTasksTreeList.KeyFieldName = "intCsIda";
@@ -1689,7 +1588,6 @@
             this.qListPIVLookUpEdit.AutoHeight = false;
             this.qListPIVLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListPIVLookUpEdit.DataSource = this.qListPIVBindingSource;
             this.qListPIVLookUpEdit.DisplayMember = "Code";
             this.qListPIVLookUpEdit.KeyMember = "Code";
             this.qListPIVLookUpEdit.Name = "qListPIVLookUpEdit";
@@ -1699,11 +1597,6 @@
             this.qListPIVLookUpEdit.ShowFooter = false;
             this.qListPIVLookUpEdit.TreeList = this.repositoryItemTreeListLookUpEdit1TreeList;
             this.qListPIVLookUpEdit.ValueMember = "Code";
-            // 
-            // qListPIVBindingSource
-            // 
-            this.qListPIVBindingSource.DataMember = "qListPIV";
-            this.qListPIVBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // repositoryItemTreeListLookUpEdit1TreeList
             // 
@@ -1742,7 +1635,6 @@
             this.qListPRIOLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListPRIOLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListPRIOLookUpEdit.DataSource = this.qListPRIOBindingSource;
             this.qListPRIOLookUpEdit.DisplayMember = "Code";
             this.qListPRIOLookUpEdit.KeyMember = "Code;Name";
             this.qListPRIOLookUpEdit.Name = "qListPRIOLookUpEdit";
@@ -1753,11 +1645,6 @@
             this.qListPRIOLookUpEdit.ShowFooter = false;
             this.qListPRIOLookUpEdit.TreeList = this.treeList1;
             this.qListPRIOLookUpEdit.ValueMember = "Code";
-            // 
-            // qListPRIOBindingSource
-            // 
-            this.qListPRIOBindingSource.DataMember = "qListPRIO";
-            this.qListPRIOBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList1
             // 
@@ -1806,7 +1693,6 @@
             this.qListBZLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListBZLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListBZLookUpEdit.DataSource = this.qListBZBindingSource;
             this.qListBZLookUpEdit.DisplayMember = "Code";
             this.qListBZLookUpEdit.KeyMember = "Code;Name";
             this.qListBZLookUpEdit.Name = "qListBZLookUpEdit";
@@ -1816,11 +1702,6 @@
             this.qListBZLookUpEdit.ShowFooter = false;
             this.qListBZLookUpEdit.TreeList = this.treeList5;
             this.qListBZLookUpEdit.ValueMember = "Code";
-            // 
-            // qListBZBindingSource
-            // 
-            this.qListBZBindingSource.DataMember = "qListBZ";
-            this.qListBZBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList5
             // 
@@ -1866,7 +1747,6 @@
             this.qListPDLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListPDLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListPDLookUpEdit.DataSource = this.qListPDBindingSource;
             this.qListPDLookUpEdit.DisplayMember = "Code";
             this.qListPDLookUpEdit.KeyMember = "Code;Name";
             this.qListPDLookUpEdit.Name = "qListPDLookUpEdit";
@@ -1876,11 +1756,6 @@
             this.qListPDLookUpEdit.ShowFooter = false;
             this.qListPDLookUpEdit.TreeList = this.treeList7;
             this.qListPDLookUpEdit.ValueMember = "Code";
-            // 
-            // qListPDBindingSource
-            // 
-            this.qListPDBindingSource.DataMember = "qListPD";
-            this.qListPDBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList7
             // 
@@ -1926,7 +1801,6 @@
             this.qListGPLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListGPLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListGPLookUpEdit.DataSource = this.qListGPBindingSource;
             this.qListGPLookUpEdit.DisplayMember = "Code";
             this.qListGPLookUpEdit.KeyMember = "Code;Name";
             this.qListGPLookUpEdit.Name = "qListGPLookUpEdit";
@@ -1936,11 +1810,6 @@
             this.qListGPLookUpEdit.ShowFooter = false;
             this.qListGPLookUpEdit.TreeList = this.treeList8;
             this.qListGPLookUpEdit.ValueMember = "Code";
-            // 
-            // qListGPBindingSource
-            // 
-            this.qListGPBindingSource.DataMember = "qListGP";
-            this.qListGPBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList8
             // 
@@ -1986,7 +1855,6 @@
             this.qListMCLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListMCLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListMCLookUpEdit.DataSource = this.qListMCBindingSource;
             this.qListMCLookUpEdit.DisplayMember = "Code";
             this.qListMCLookUpEdit.KeyMember = "Code;Name";
             this.qListMCLookUpEdit.Name = "qListMCLookUpEdit";
@@ -1995,11 +1863,6 @@
             this.qListMCLookUpEdit.ShowFooter = false;
             this.qListMCLookUpEdit.TreeList = this.treeList9;
             this.qListMCLookUpEdit.ValueMember = "Code";
-            // 
-            // qListMCBindingSource
-            // 
-            this.qListMCBindingSource.DataMember = "qListMC";
-            this.qListMCBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList9
             // 
@@ -2045,7 +1908,6 @@
             this.qListSULookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListSULookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListSULookUpEdit.DataSource = this.qListSUBindingSource;
             this.qListSULookUpEdit.DisplayMember = "Code";
             this.qListSULookUpEdit.KeyMember = "Code;Name";
             this.qListSULookUpEdit.Name = "qListSULookUpEdit";
@@ -2055,11 +1917,6 @@
             this.qListSULookUpEdit.ShowFooter = false;
             this.qListSULookUpEdit.TreeList = this.treeList10;
             this.qListSULookUpEdit.ValueMember = "Code";
-            // 
-            // qListSUBindingSource
-            // 
-            this.qListSUBindingSource.DataMember = "qListSU";
-            this.qListSUBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList10
             // 
@@ -2105,7 +1962,6 @@
             this.qListPVLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListPVLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListPVLookUpEdit.DataSource = this.qListPVBindingSource;
             this.qListPVLookUpEdit.DisplayMember = "Code";
             this.qListPVLookUpEdit.KeyMember = "Code;Name";
             this.qListPVLookUpEdit.Name = "qListPVLookUpEdit";
@@ -2115,11 +1971,6 @@
             this.qListPVLookUpEdit.ShowFooter = false;
             this.qListPVLookUpEdit.TreeList = this.treeList12;
             this.qListPVLookUpEdit.ValueMember = "Code";
-            // 
-            // qListPVBindingSource
-            // 
-            this.qListPVBindingSource.DataMember = "qListPV";
-            this.qListPVBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList12
             // 
@@ -2166,7 +2017,6 @@
             this.qListPOLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListPOLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListPOLookUpEdit.DataSource = this.qListPOBindingSource;
             this.qListPOLookUpEdit.DisplayMember = "Code";
             this.qListPOLookUpEdit.KeyMember = "Code;Name";
             this.qListPOLookUpEdit.Name = "qListPOLookUpEdit";
@@ -2176,11 +2026,6 @@
             this.qListPOLookUpEdit.ShowFooter = false;
             this.qListPOLookUpEdit.TreeList = this.treeList13;
             this.qListPOLookUpEdit.ValueMember = "Code";
-            // 
-            // qListPOBindingSource
-            // 
-            this.qListPOBindingSource.DataMember = "qListPO";
-            this.qListPOBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList13
             // 
@@ -2227,7 +2072,6 @@
             this.qListDAOLookUpEdit.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.qListDAOLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListDAOLookUpEdit.DataSource = this.qListDAOBindingSource;
             this.qListDAOLookUpEdit.DisplayMember = "Code";
             this.qListDAOLookUpEdit.KeyMember = "Code;Name";
             this.qListDAOLookUpEdit.Name = "qListDAOLookUpEdit";
@@ -2237,11 +2081,6 @@
             this.qListDAOLookUpEdit.ShowFooter = false;
             this.qListDAOLookUpEdit.TreeList = this.treeList14;
             this.qListDAOLookUpEdit.ValueMember = "Code";
-            // 
-            // qListDAOBindingSource
-            // 
-            this.qListDAOBindingSource.DataMember = "qListDAO";
-            this.qListDAOBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList14
             // 
@@ -2287,7 +2126,6 @@
             this.qListEIELookUpEdit.AutoHeight = false;
             this.qListEIELookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.qListEIELookUpEdit.DataSource = this.qListEIEBindingSource;
             this.qListEIELookUpEdit.DisplayMember = "Code";
             this.qListEIELookUpEdit.KeyMember = "Code";
             this.qListEIELookUpEdit.Name = "qListEIELookUpEdit";
@@ -2297,11 +2135,6 @@
             this.qListEIELookUpEdit.ShowFooter = false;
             this.qListEIELookUpEdit.TreeList = this.treeList11;
             this.qListEIELookUpEdit.ValueMember = "Code";
-            // 
-            // qListEIEBindingSource
-            // 
-            this.qListEIEBindingSource.DataMember = "qListEIE";
-            this.qListEIEBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList11
             // 
@@ -2370,26 +2203,15 @@
             this.treeListBand2.Name = "treeListBand2";
             this.treeListBand2.Visible = false;
             // 
-            // qCommonStructTreeBindingSource
-            // 
-            this.qCommonStructTreeBindingSource.DataMember = "qCommonStructTree";
-            this.qCommonStructTreeBindingSource.DataSource = this.pruefPlanDataSet;
-            // 
             // ListNamesLookUpEdit
             // 
             this.ListNamesLookUpEdit.AutoHeight = false;
             this.ListNamesLookUpEdit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.ListNamesLookUpEdit.DataSource = this.namesBindingSource;
             this.ListNamesLookUpEdit.KeyMember = "Descript";
             this.ListNamesLookUpEdit.Name = "ListNamesLookUpEdit";
             this.ListNamesLookUpEdit.ShowFooter = false;
             this.ListNamesLookUpEdit.TreeList = this.treeList15;
-            // 
-            // namesBindingSource
-            // 
-            this.namesBindingSource.DataMember = "Names";
-            this.namesBindingSource.DataSource = this.pruefPlanDataSet;
             // 
             // treeList15
             // 
@@ -2818,78 +2640,6 @@
             this.gridColumn13.VisibleIndex = 5;
             this.gridColumn13.Width = 106;
             // 
-            // qCommonStructTreeTableAdapter
-            // 
-            this.qCommonStructTreeTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListPRIOTableAdapter
-            // 
-            this.qListPRIOTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListPIVTableAdapter
-            // 
-            this.qListPIVTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListBZTableAdapter
-            // 
-            this.qListBZTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListPDTableAdapter
-            // 
-            this.qListPDTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListGPTableAdapter
-            // 
-            this.qListGPTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListMCTableAdapter
-            // 
-            this.qListMCTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListSUTableAdapter
-            // 
-            this.qListSUTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListEIETableAdapter
-            // 
-            this.qListEIETableAdapter.ClearBeforeFill = true;
-            // 
-            // qListPVTableAdapter
-            // 
-            this.qListPVTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListPOTableAdapter
-            // 
-            this.qListPOTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListDAOTableAdapter
-            // 
-            this.qListDAOTableAdapter.ClearBeforeFill = true;
-            // 
-            // namesTableAdapter
-            // 
-            this.namesTableAdapter.ClearBeforeFill = true;
-            // 
-            // qNamesRegTableAdapter
-            // 
-            this.qNamesRegTableAdapter.ClearBeforeFill = true;
-            // 
-            // qNamesAnwTableAdapter
-            // 
-            this.qNamesAnwTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListAppStatusTableAdapter
-            // 
-            this.qListAppStatusTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListGPBTableAdapter
-            // 
-            this.qListGPBTableAdapter.ClearBeforeFill = true;
-            // 
-            // qListAppTableAdapter
-            // 
-            this.qListAppTableAdapter.ClearBeforeFill = true;
-            // 
             // popupMenuPrufplanung
             // 
             this.popupMenuPrufplanung.ItemLinks.Add(this.EinfügenButtonn);
@@ -2898,10 +2648,6 @@
             this.popupMenuPrufplanung.ItemLinks.Add(this.LöschenButton);
             this.popupMenuPrufplanung.Name = "popupMenuPrufplanung";
             this.popupMenuPrufplanung.Ribbon = this.ribbon;
-            // 
-            // qTemplatesTreeTableAdapter
-            // 
-            this.qTemplatesTreeTableAdapter.ClearBeforeFill = true;
             // 
             // popupMenuApparate
             // 
@@ -2950,30 +2696,23 @@
             this.controlContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.treeListPrufvorlagen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NodesImageList)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qTemplatesTreeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefPlanDataSet)).EndInit();
             this.dockPanelAnweisungen.ResumeLayout(false);
             this.dockPanel7_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qNamesAnwBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             this.dockPanelApparatenliste.ResumeLayout(false);
             this.dockPanel8_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControlApparatenliste)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListAppBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).EndInit();
             this.stackPanel1.ResumeLayout(false);
             this.stackPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LookUpEditAnlagezweig.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListGPBBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeListLookUpEdit1TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEditAppStatus.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListAppStatusBindingSource)).EndInit();
             this.dockPanelRegularium.ResumeLayout(false);
             this.dockPanel9_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControlRegularium)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qNamesRegBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView6)).EndInit();
             this.dockPanel2.ResumeLayout(false);
             this.dockPanel5.ResumeLayout(false);
@@ -2991,45 +2730,32 @@
             ((System.ComponentModel.ISupportInitialize)(this.ExSchutzImageList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RulesImageComboBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPIVLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPIVBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTreeListLookUpEdit1TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPRIOLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPRIOBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListBZLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListBZBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPDLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPDBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListGPLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListGPBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListMCLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListMCBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListSULookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListSUBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPVLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPVBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListPOLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListPOBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListDAOLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListDAOBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qListEIELookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qListEIEBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AKDateEdit.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AKDateEdit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DKDateEdit.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DKDateEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qCommonStructTreeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ListNamesLookUpEdit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.namesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -3148,7 +2874,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
-        private DAL.PruefPlanDataSet pruefPlanDataSet;
         private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox ExSchutzImageComboBox;
         private DevExpress.Utils.ImageCollection ExSchutzImageList;
         private DevExpress.Utils.ImageCollection NodesImageList;
@@ -3166,14 +2891,8 @@
         private DevExpress.XtraTreeList.Columns.TreeListBand treeListBand2;
         private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox AppStatusImageComboBox;
         private DevExpress.XtraBars.BarLinkContainerItem barLinkContainerItem1;
-        private System.Windows.Forms.BindingSource qCommonStructTreeBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qCommonStructTreeTableAdapter qCommonStructTreeTableAdapter;
         private DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit qListPRIOLookUpEdit;
-        private System.Windows.Forms.BindingSource qListPRIOBindingSource;
         private DevExpress.XtraTreeList.TreeList treeList1;
-        private DAL.PruefPlanDataSetTableAdapters.qListPRIOTableAdapter qListPRIOTableAdapter;
-        private System.Windows.Forms.BindingSource qListPIVBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qListPIVTableAdapter qListPIVTableAdapter;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colCode;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colName;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colCode1;
@@ -3196,25 +2915,6 @@
         private DevExpress.XtraTreeList.TreeList treeList13;
         private DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit qListDAOLookUpEdit;
         private DevExpress.XtraTreeList.TreeList treeList14;
-        private System.Windows.Forms.BindingSource qListBZBindingSource;
-        private System.Windows.Forms.BindingSource qListPDBindingSource;
-        private System.Windows.Forms.BindingSource qListGPBindingSource;
-        private System.Windows.Forms.BindingSource qListMCBindingSource;
-        private System.Windows.Forms.BindingSource qListSUBindingSource;
-        private System.Windows.Forms.BindingSource qListEIEBindingSource;
-        private System.Windows.Forms.BindingSource qListPVBindingSource;
-        private System.Windows.Forms.BindingSource qListPOBindingSource;
-        private System.Windows.Forms.BindingSource qListDAOBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qListBZTableAdapter qListBZTableAdapter;
-       
-        private DAL.PruefPlanDataSetTableAdapters.qListPDTableAdapter qListPDTableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListGPTableAdapter qListGPTableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListMCTableAdapter qListMCTableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListSUTableAdapter qListSUTableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListEIETableAdapter qListEIETableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListPVTableAdapter qListPVTableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListPOTableAdapter qListPOTableAdapter;
-        private DAL.PruefPlanDataSetTableAdapters.qListDAOTableAdapter qListDAOTableAdapter;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colCode2;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colName2;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colCode3;
@@ -3236,9 +2936,7 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemDateEdit AKDateEdit;
         private DevExpress.XtraEditors.Repository.RepositoryItemDateEdit DKDateEdit;
         private DevExpress.XtraEditors.Repository.RepositoryItemTreeListLookUpEdit ListNamesLookUpEdit;
-        private System.Windows.Forms.BindingSource namesBindingSource;
         private DevExpress.XtraTreeList.TreeList treeList15;
-        private DAL.PruefPlanDataSetTableAdapters.NamesTableAdapter namesTableAdapter;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colIDN;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colIDRef;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colIDBase;
@@ -3264,20 +2962,10 @@
         private DevExpress.XtraTreeList.Columns.TreeListColumn colCode11;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colCode12;
         private DevExpress.XtraGrid.GridControl gridControlRegularium;
-        private System.Windows.Forms.BindingSource qNamesRegBindingSource;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn20;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn21;
-        private DAL.PruefPlanDataSetTableAdapters.qNamesRegTableAdapter qNamesRegTableAdapter;
-        private System.Windows.Forms.BindingSource qNamesAnwBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qNamesAnwTableAdapter qNamesAnwTableAdapter;
         private DevExpress.XtraEditors.LookUpEdit lookUpEditAppStatus;
-        private System.Windows.Forms.BindingSource qListAppStatusBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qListAppStatusTableAdapter qListAppStatusTableAdapter;
-        private System.Windows.Forms.BindingSource qListGPBBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qListGPBTableAdapter qListGPBTableAdapter;
-        private System.Windows.Forms.BindingSource qListAppBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qListAppTableAdapter qListAppTableAdapter;
         private DevExpress.XtraEditors.TreeListLookUpEdit LookUpEditAnlagezweig;
         private DevExpress.XtraTreeList.TreeList treeListLookUpEdit1TreeList;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colDescript1;
@@ -3295,8 +2983,6 @@
         private DevExpress.XtraBars.BarButtonItem KopierenButton;
         private DevExpress.XtraBars.BarButtonItem EinfügenButton;
         private DevExpress.XtraBars.BarButtonItem LöschenButton;
-        private System.Windows.Forms.BindingSource qTemplatesTreeBindingSource;
-        private DAL.PruefPlanDataSetTableAdapters.qTemplatesTreeTableAdapter qTemplatesTreeTableAdapter;
         private DevExpress.XtraTreeList.TreeList treeListPrufvorlagen;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn2;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn4;

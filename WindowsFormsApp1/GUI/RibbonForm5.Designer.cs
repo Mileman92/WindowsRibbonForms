@@ -90,8 +90,6 @@
             this.dockPanel2 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.JournalGridControl = new DevExpress.XtraGrid.GridControl();
-            this.timeTrainJournalBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pruefExecDataSet = new WindowsFormsApp1.DAL.PruefExecDataSet();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.altImageComboBox = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
@@ -103,7 +101,6 @@
             this.dockPanel3 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel3_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.ScheduledTasksGridControl = new DevExpress.XtraGrid.GridControl();
-            this.tfGetScheduledTasksListCurrentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bandedGridView1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridView();
             this.gridBand1Prüfzyklus = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -143,8 +140,6 @@
             this.allgemein2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.allgemein3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.allgemein4 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.timeTrainJournalTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.TimeTrainJournalTableAdapter();
-            this.tf_GetScheduledTasksListCurrentTableAdapter = new WindowsFormsApp1.DAL.PruefExecDataSetTableAdapters.tf_GetScheduledTasksListCurrentTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
@@ -155,15 +150,12 @@
             this.dockPanel2.SuspendLayout();
             this.dockPanel2_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.JournalGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeTrainJournalBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefExecDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.altImageComboBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.neuImageComboBox)).BeginInit();
             this.dockPanel3.SuspendLayout();
             this.dockPanel3_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ScheduledTasksGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tfGetScheduledTasksListCurrentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bandedGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBoxStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExIstSchutzZone)).BeginInit();
@@ -582,7 +574,6 @@
             // 
             // JournalGridControl
             // 
-            this.JournalGridControl.DataSource = this.timeTrainJournalBindingSource;
             this.JournalGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.JournalGridControl.Location = new System.Drawing.Point(0, 0);
             this.JournalGridControl.MainView = this.gridView1;
@@ -595,16 +586,6 @@
             this.JournalGridControl.TabIndex = 7;
             this.JournalGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
-            // 
-            // timeTrainJournalBindingSource
-            // 
-            this.timeTrainJournalBindingSource.DataMember = "TimeTrainJournal";
-            this.timeTrainJournalBindingSource.DataSource = this.pruefExecDataSet;
-            // 
-            // pruefExecDataSet
-            // 
-            this.pruefExecDataSet.DataSetName = "PruefExecDataSet";
-            this.pruefExecDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // gridView1
             // 
@@ -739,7 +720,6 @@
             // ScheduledTasksGridControl
             // 
             this.ScheduledTasksGridControl.AllowRestoreSelectionAndFocusedRow = DevExpress.Utils.DefaultBoolean.True;
-            this.ScheduledTasksGridControl.DataSource = this.tfGetScheduledTasksListCurrentBindingSource;
             this.ScheduledTasksGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ScheduledTasksGridControl.EmbeddedNavigator.Buttons.Append.Visible = false;
             this.ScheduledTasksGridControl.EmbeddedNavigator.Buttons.CancelEdit.Visible = false;
@@ -761,11 +741,6 @@
             this.ScheduledTasksGridControl.UseEmbeddedNavigator = true;
             this.ScheduledTasksGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.bandedGridView1});
-            // 
-            // tfGetScheduledTasksListCurrentBindingSource
-            // 
-            this.tfGetScheduledTasksListCurrentBindingSource.DataMember = "tf_GetScheduledTasksListCurrent";
-            this.tfGetScheduledTasksListCurrentBindingSource.DataSource = this.pruefExecDataSet;
             // 
             // bandedGridView1
             // 
@@ -1219,14 +1194,6 @@
             this.allgemein4.Name = "allgemein4";
             this.allgemein4.Visible = true;
             // 
-            // timeTrainJournalTableAdapter
-            // 
-            this.timeTrainJournalTableAdapter.ClearBeforeFill = true;
-            // 
-            // tf_GetScheduledTasksListCurrentTableAdapter
-            // 
-            this.tf_GetScheduledTasksListCurrentTableAdapter.ClearBeforeFill = true;
-            // 
             // RibbonForm5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1251,15 +1218,12 @@
             this.dockPanel2.ResumeLayout(false);
             this.dockPanel2_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.JournalGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeTrainJournalBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pruefExecDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.altImageComboBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.neuImageComboBox)).EndInit();
             this.dockPanel3.ResumeLayout(false);
             this.dockPanel3_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ScheduledTasksGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tfGetScheduledTasksListCurrentBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bandedGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBoxStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExIstSchutzZone)).EndInit();
@@ -1312,9 +1276,6 @@
         private DevExpress.XtraBars.Docking.ControlContainer dockPanel2_Container;
         private DevExpress.XtraBars.Docking.DockPanel dockPanel1;
         private DevExpress.XtraBars.Docking.ControlContainer dockPanel1_Container;
-        private System.Windows.Forms.BindingSource timeTrainJournalBindingSource;
-        private DAL.PruefExecDataSet pruefExecDataSet;
-        private DAL.PruefExecDataSetTableAdapters.TimeTrainJournalTableAdapter timeTrainJournalTableAdapter;
         private DevExpress.XtraGrid.GridControl ScheduledTasksGridControl;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridView bandedGridView1;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand1Prüfzyklus;
@@ -1362,8 +1323,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private System.Windows.Forms.BindingSource tfGetScheduledTasksListCurrentBindingSource;
-        private DAL.PruefExecDataSetTableAdapters.tf_GetScheduledTasksListCurrentTableAdapter tf_GetScheduledTasksListCurrentTableAdapter;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn2;
         private DevExpress.XtraBars.BarLinkContainerItem barLinkContainerItem1;
         private DevExpress.Utils.ImageCollection ExZone;

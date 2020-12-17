@@ -19,22 +19,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             //appmaster
-            queryDevicesListBindingSource.SuspendBinding();
-            queryDevicesListTableAdapter.Fill(
-                aPPDataSet.QueryDevicesList);
-            queryDevicesListBindingSource.SuspendBinding();
-
-            //qListRM
-            qListRMBindingSource.SuspendBinding();
-            qListRMTableAdapter.Fill(
-                aPPDataSet.qListRM, 8);
-            qListRMBindingSource.ResumeBinding();
-
-            //qScheduledTasksCurrent
-            qScheduledTasksCurrentDetailBindingSource.SuspendBinding();
-            qScheduledTasksCurrentDetailTableAdapter.Fill(
-                aPPDataSet.qScheduledTasksCurrentDetail, 1259703);
-            qScheduledTasksCurrentDetailBindingSource.ResumeBinding();
+           
 
         }
 
